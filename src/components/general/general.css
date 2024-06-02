@@ -1,0 +1,133 @@
+.text-input {
+	display: flex;
+	text-align: left;
+	padding: 1rem;
+	width: 30rem;
+}
+
+.text-input input {
+	border: none;
+	border-bottom: 1px solid var(--red);
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	width: 100%;
+}
+
+.text-input input:focus,
+.text-input input:hover {
+	outline: none;
+	border: 1px solid var(--red);
+}
+
+.input {
+	background-color: var(--white);
+}
+
+.date {
+	color: var(--white);
+	background-color: var(--darkGray);
+}
+
+.date input {
+	background-color: var(--darkGray);
+	color: var(--white);
+}
+
+.date input:focus,
+.date input:hover {
+	border: 1px solid var(--red);
+	background-color: var(--lightGray);
+}
+
+/* Select */
+
+.select-input {
+	display: flex;
+	text-align: left;
+	padding: 1rem;
+	width: 30rem;
+}
+
+.select-input select {
+	border: none;
+	border-bottom: 1px solid var(--red);
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	width: 30rem;
+	outline: none;
+}
+
+.whiteSelect {
+	background-color: var(--white);
+}
+
+.blackSelect,
+.blackSelect select,
+.blackSelect select option {
+	background-color: var(--darkGray);
+	color: var(--white);
+}
+
+/* Button */
+
+.button {
+	background-color: var(--red);
+	border: none;
+	color: var(--white);
+	cursor: pointer;
+	font-size: 1.6rem;
+	margin: 1rem;
+}
+
+.squareButton {
+	padding: 1rem;
+}
+
+.roundButton {
+	border-radius: 25px;
+	padding: 0.5rem 1rem;
+}
+
+/* SearchBar */
+.search_bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	width: 30rem;
+	background-color: var(--darkGray);
+}
+
+.darkSearch  {
+	background-color: var(--lightGray);
+	color: var(--lightestGray);
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.lightSearch {
+	background-color: var(--white);
+	color: var(--darkGray);
+	font-size: 1.6rem;
+	padding: 0.5rem;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	width: 100%;
+}
+
+.search-icon {
+	color: white;
+	padding-top: 0.5rem;
+}
+
+.darkSearch input:hover, .darkSearch input:focus {
+	color: var(--white);
+}
+
+.lightSearch input:hover, .lightSearch input:focus {
+	color: var(--darkGray);
+}

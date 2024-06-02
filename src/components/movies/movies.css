@@ -1,0 +1,23 @@
+.tag {
+    margin: 0 10px 11px 0;
+    width: fit-content;
+    padding: 5px 12px;
+    border: 1px solid #e31c25;
+    border-radius: 15px;
+    color: #ffffff;
+    list-style: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.tag.clicked {
+    background-color: #e31c25;
+}
+
+.tag:hover {
+    background-color: sandybrown;
+}
+
+.tag.clicked.card {
+    cursor: auto;
+}

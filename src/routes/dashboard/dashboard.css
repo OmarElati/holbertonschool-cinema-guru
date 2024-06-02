@@ -1,0 +1,42 @@
+.dash {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.dash > div {
+    width: 100%;
+    height: 94%;
+    display: flex;
+}
+
+.dash > div > main {
+    width: 100%;
+    padding: 1rem;
+}
+
+.filter {
+    display: flex;
+    width: 100%;
+}
+
+.tags-filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+    margin: 2%;
+}
+
+.filter-inputs {
+    width: 55%;
+    padding: 0;
+    margin: 2%;
+}
+
+.input-search {
+    display: flex;
+}

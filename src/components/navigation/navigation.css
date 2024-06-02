@@ -1,0 +1,31 @@
+.sidebar {
+    background-color: darkred;
+    height: 100%;
+}
+
+.sidebar ul.navigation li:hover {
+    background-color: red;
+}
+
+.sidebar ul.navigation li.active {
+    background-color: darkred;
+}
+
+.sidebar ul.activities {
+    background-color: black;
+}
+
+.sidebar ul.navigation {
+    padding: 0.5rem;
+    color: white;
+}
+
+.sidebar ul.navigation li {
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.activities h1 {
+    color: white;
+    text-decoration: underline;
+}

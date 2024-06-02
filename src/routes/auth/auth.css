@@ -1,0 +1,127 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-bar {
+    display: flex;
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    height: 30px;
+}
+
+.header-bar span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bar span img {
+    border: 3px solid var(--color-dark-red);
+    height: 35px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.header-bar span span {
+    color:#bb000e;
+}
+
+.auth-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-form {
+    width: 100%;
+    height: 75vh;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+
+.auth-form-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    min-width: 800px;
+    padding-left: .5rem; 
+    padding-right: .5rem; 
+}
+
+.button-container {
+    text-align: center;
+}
+
+.input-icon {
+    color: gray;
+    padding-top: 0.5rem;
+}
+
+.auth-form-header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.5rem;
+}
+
+.auth-form-header>div {
+    height: 100%;
+    width: 50%;
+    background-color: #e31c25;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: #bb000e !important;
+}
+
+.signin-form-header>h1,
+.signup-form-header>h1 {
+    font-size: 2rem;
+    margin: 3rem 0;
+}
+
+.signin-container,
+.signup-container {
+    width: 100%;
+}
+
+.auth-form-header>div:first-child {
+    float: left;
+}
+
+.auth-form-header>div:last-child {
+    float: right;
+}
+
+#header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: #e31c25;
+}
+
+#header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background-color: #e31c25;
+}
